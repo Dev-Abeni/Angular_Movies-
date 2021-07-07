@@ -3,14 +3,31 @@ import { BrowserModule } from '@angular/platform-browser';
 
 import { AppRoutingModule } from './app-routing.module';
 import { AppComponent } from './app.component';
+import { BrowserAnimationsModule } from '@angular/platform-browser/animations';
+
+import { MaterialModule } from './material/material.module';
+import { MenuComponent } from './menu/menu.component';
+import { UtilitiesComponent } from './utilities/utilities.component';
+import { MoviesListComponent } from './movies/movies-list/movies-list.component';
+import { GenericListComponent } from './utilities/generic-list/generic-list.component';
+import { RatingComponent } from './utilities/rating/rating.component';
+import { HomeComponent } from './home/home.component';
 
 @NgModule({
   declarations: [
-    AppComponent
+    AppComponent,
+    MenuComponent,
+    UtilitiesComponent,
+    MoviesListComponent,
+    GenericListComponent,
+    RatingComponent,
+    HomeComponent
   ],
   imports: [
     BrowserModule,
-    AppRoutingModule
+    AppRoutingModule,
+    BrowserAnimationsModule,
+    MaterialModule
   ],
   providers: [],
   bootstrap: [AppComponent]
