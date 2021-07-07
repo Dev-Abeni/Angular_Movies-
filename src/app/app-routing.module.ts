@@ -9,12 +9,17 @@ import { IndexMovieTheatersComponent } from './movie-theaters/index-movie-theate
 import { CreateMovieTheaterComponent } from './movie-theaters/create-movie-theater/create-movie-theater.component';
 import { CreateMovieComponent } from './movies/create-movie/create-movie.component';
 import { EditActorComponent } from './actors/edit-actor/edit-actor.component';
+import { EditGenreComponent } from './genres/edit-genre/edit-genre.component';
+import { EditMovieComponent } from './movies/edit-movie/edit-movie.component';
+import { EditMovieTheaterComponent } from './movie-theaters/edit-movie-theater/edit-movie-theater.component';
 
 const routes: Routes = [
   {path: '', component:HomeComponent},
 
   {path: 'genres', component:IndexGenresComponent},
   {path: 'genres/create', component:CreateGenreComponent},
+  {path: 'genres/edit/:id', component:EditGenreComponent},
+
   
   {path: 'actors', component:IndexActorsComponent},
   {path: 'actors/create', component:CreateActorComponent},
@@ -22,8 +27,11 @@ const routes: Routes = [
   
   {path: 'movietheaters', component:IndexMovieTheatersComponent},
   {path: 'movietheaters/create', component:CreateMovieTheaterComponent},
+  {path: 'movietheaters/edit/:id', component:EditMovieTheaterComponent},
+
 
   {path: 'movies/create', component:CreateMovieComponent},
+  {path: 'movies/edit/:id', component:EditMovieComponent},
   
 ];
 
