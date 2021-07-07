@@ -20,7 +20,6 @@ const routes: Routes = [
   {path: 'genres/create', component:CreateGenreComponent},
   {path: 'genres/edit/:id', component:EditGenreComponent},
 
-  
   {path: 'actors', component:IndexActorsComponent},
   {path: 'actors/create', component:CreateActorComponent},
   {path: 'actors/edit/:id', component:EditActorComponent},
