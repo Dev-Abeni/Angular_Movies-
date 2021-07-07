@@ -28,9 +28,11 @@ const routes: Routes = [
   {path: 'movietheaters/create', component:CreateMovieTheaterComponent},
   {path: 'movietheaters/edit/:id', component:EditMovieTheaterComponent},
 
-
   {path: 'movies/create', component:CreateMovieComponent},
   {path: 'movies/edit/:id', component:EditMovieComponent},
+
+  // Wild card for displaying exceptions in our pages
+  {path: '**', redirectTo: ''}
   
 ];
 
