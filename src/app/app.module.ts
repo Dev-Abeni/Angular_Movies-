@@ -12,6 +12,7 @@ import { MoviesListComponent } from './movies/movies-list/movies-list.component'
 import { GenericListComponent } from './utilities/generic-list/generic-list.component';
 import { RatingComponent } from './utilities/rating/rating.component';
 import { HomeComponent } from './home/home.component';
+import { IndexGenresComponent } from './genres/index-genres/index-genres.component';
 
 @NgModule({
   declarations: [
@@ -21,7 +22,8 @@ import { HomeComponent } from './home/home.component';
     MoviesListComponent,
     GenericListComponent,
     RatingComponent,
-    HomeComponent
+    HomeComponent,
+    IndexGenresComponent
   ],
   imports: [
     BrowserModule,
