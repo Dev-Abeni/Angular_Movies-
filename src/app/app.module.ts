@@ -14,6 +14,8 @@ import { RatingComponent } from './utilities/rating/rating.component';
 import { HomeComponent } from './home/home.component';
 import { IndexGenresComponent } from './genres/index-genres/index-genres.component';
 import { CreateGenreComponent } from './genres/create-genre/create-genre.component';
+import { IndexActorsComponent } from './actors/index-actors/index-actors.component';
+import { CreateActorComponent } from './actors/create-actor/create-actor.component';
 
 @NgModule({
   declarations: [
@@ -25,7 +27,9 @@ import { CreateGenreComponent } from './genres/create-genre/create-genre.compone
     RatingComponent,
     HomeComponent,
     IndexGenresComponent,
-    CreateGenreComponent
+    CreateGenreComponent,
+    IndexActorsComponent,
+    CreateActorComponent
   ],
   imports: [
     BrowserModule,
